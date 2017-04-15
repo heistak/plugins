@@ -1,14 +1,14 @@
 {
-  "name": "mastodon",
+  "name": "Mastodon",
   "version": "1.0.0",
   "description": "Mastodon",
   "main": "index.js",
-  "author": "Kotaro Kawashima <@kkotaro0111>",
+  "author": "Jeremy Benoist <jeremy.benoist@gmail.com>",
   "license": "MIT",
   "config": {
     "serviceURL": "",
-    "serviceName": "mastodon",
-    "message": "",
+    "serviceName": "Mastodon",
+    "message": "Mastodon est un serveur libre de réseautage social.",
     "popup": [],
     "hasNotificationSound": true,
     "hasIndirectMessages": false,

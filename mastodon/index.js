@@ -1,7 +1,6 @@
-// just pass through Franz
 module.exports = (Franz) => {
-  class Mastodon extends Franz{
-    validateServer(URL){
+  class Mastodon extends Franz {
+    validateServer(URL) {
       const api = `${URL}/manifest.json`;
       return new Promise((resolve, reject) => {
         $.get(api, (resp) => {
@@ -10,7 +9,6 @@ module.exports = (Franz) => {
           }else{
             reject();
           }
-
         }).fail(reject);
       });
     }
