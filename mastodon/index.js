@@ -4,7 +4,7 @@ module.exports = (Franz) => {
       const api = `${URL}/manifest.json`;
       return new Promise((resolve, reject) => {
         $.get(api, (resp) => {
-          if (typeof(resp) === 'object' && 'name' in resp && resp.name === 'Mastodon') {
+          if (typeof(resp) === 'object' && 'name' in resp) {
             resolve();
           }else{
             reject();

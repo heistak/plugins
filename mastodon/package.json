@@ -8,7 +8,7 @@
   "config": {
     "serviceURL": "",
     "serviceName": "Mastodon",
-    "message": "Mastodon est un serveur libre de réseautage social.",
+    "message": "Mastodon is a free social networking system.",
     "popup": [],
     "hasNotificationSound": true,
     "hasIndirectMessages": false,
